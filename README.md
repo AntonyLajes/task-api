@@ -3,13 +3,17 @@
 Esta API foi criada para fins educacionais. O foco era utilizar todos os métodos e tipos de envio mais usados, como query params, body params, multipart, entre outros, com NodeJS e JavaScript "cru", sem ajuda externa de frameworks como Express e NextJS.
 
 ## Funcionalidades
-Criação de Tarefas: Permite criar novas tarefas enviando dados no body da requisição e por meio de um arquivo csv com o padrão "title, description"
+Criação de Tarefas: 
+Permite criar novas tarefas enviando dados no body da requisição e por meio de um arquivo csv com o padrão "title, description"
 
-### Listagem de Tarefas: Recupera a lista de todas as tarefas criadas, e obtenha tarefas pelo campo "title" e "description" por meio de Query Params
+### Listagem de Tarefas: 
+Recupera a lista de todas as tarefas criadas, e obtenha tarefas pelo campo "title" e "description" por meio de Query Params
 
-### Atualização de Tarefas: Atualiza detalhes de uma tarefa específica enviando seu ID com Request Params e novos dados com o Body Params.
+### Atualização de Tarefas: 
+Atualiza detalhes de uma tarefa específica enviando seu ID com Request Params e novos dados com o Body Params.
 
-### Remoção de Tarefas: Remove tarefas baseadas no ID fornecido com Request Params.
+### Remoção de Tarefas: 
+Remove tarefas baseadas no ID fornecido com Request Params.
 
 ## Como Usar
 ###Requisitos
