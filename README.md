@@ -16,33 +16,33 @@ Atualiza detalhes de uma tarefa específica enviando seu ID com Request Params e
 Remove tarefas baseadas no ID fornecido com Request Params.
 
 ## Como Usar
-###Requisitos
+#### Requisitos
 NodeJS instalado.
 
-### Instalação
+#### Instalação
 Clone este repositório: git clone https://github.com/seu-usuario/task-api.git
 
 Navegue até o diretório do projeto: cd task-api
 
 Instale as dependências: npm install
 
-### Execução
+#### Execução
 Inicie o servidor: node src/server.js
 
 A API estará disponível em http://localhost:3333
 
 ## Exemplos de Uso
-### Criação de Tarefa
+#### Criação de Tarefa
 bash
 curl -X POST http://localhost:3333/tasks -H "Content-Type: application/json" -d '{"title": "Nova Tarefa", "description": "Descrição da tarefa"}'
-### Listagem de Tarefas
+#### Listagem de Tarefas
 bash
 curl -X GET http://localhost:3333/tasks
-### Atualização de Tarefa
+#### Atualização de Tarefa
 bash
 curl -X PUT http://localhost:3333/tasks/1 -H "Content-Type: application/json" -d '{"title": "Tarefa Atualizada", "description": "Descrição atualizada"}'
-### Remoção de Tarefa
+#### Remoção de Tarefa
 bash
 curl -X DELETE http://localhost:3333/tasks/1
-##### Contribuição
+###### Contribuição
 Sinta-se à vontade para abrir issues e pull requests. Todas as contribuições são bem-vindas!
