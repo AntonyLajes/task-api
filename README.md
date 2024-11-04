@@ -1,6 +1,6 @@
 # Task API
 ## Introdução
-Esta API foi criada para fins educacionais. O foco era utilizar todos os métodos e tipos de envio mais usados, como query params, body params, multipart, entre outros, com NodeJS e JavaScript "cru", sem ajuda externa de frameworks como Express e NextJS.
+Esta API foi criada para fins educacionais. O foco era utilizar todos os métodos e tipos de envio mais usados, como query params, body params, multipart, entre outros, com NodeJS e JavaScript "cru", sem ajuda externa de frameworks como Express e NestJS.
 
 ## Funcionalidades
 Criação de Tarefas: 
