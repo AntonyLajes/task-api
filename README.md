@@ -6,13 +6,13 @@ Esta API foi criada para fins educacionais. O foco era utilizar todos os método
 Criação de Tarefas: 
 Permite criar novas tarefas enviando dados no body da requisição e por meio de um arquivo csv com o padrão "title, description"
 
-### Listagem de Tarefas: 
+#### Listagem de Tarefas: 
 Recupera a lista de todas as tarefas criadas, e obtenha tarefas pelo campo "title" e "description" por meio de Query Params
 
-### Atualização de Tarefas: 
+#### Atualização de Tarefas: 
 Atualiza detalhes de uma tarefa específica enviando seu ID com Request Params e novos dados com o Body Params.
 
-### Remoção de Tarefas: 
+#### Remoção de Tarefas: 
 Remove tarefas baseadas no ID fornecido com Request Params.
 
 ## Como Usar
